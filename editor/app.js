@@ -77,7 +77,7 @@ window.addEventListener('load', function(evt) {
 
 	var grid = new vg.HexGrid({
 		rings: 5,
-		cellSize: 10
+		cellSize: 15
 	});
 	var board = new vg.Board(grid);
 	var mouse = new vg.MouseCaster(board.group, scene.camera, canvas);
