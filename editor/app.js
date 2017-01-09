@@ -69,7 +69,7 @@ window.addEventListener('load', function(evt) {
 	var canvas = document.getElementById('view');
 	var scene = new vg.Scene({
 		element: canvas,
-		cameraPosition: {x:0, y:0, z:120}
+		cameraPosition: {x:0, y:300, z:0}
 	}, true);
 
 	// listen to the orbit controls to disable the raycaster while user adjusts the view
